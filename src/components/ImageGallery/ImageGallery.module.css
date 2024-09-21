@@ -1,0 +1,13 @@
+.gallery {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 1440px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.item {
+    flex-basis: calc((100% - 60px) / 5);
+}

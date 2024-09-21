@@ -1,0 +1,28 @@
+.header {
+    padding: 20px;
+    background-color: aquamarine;
+    width: 1440px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    margin: auto;
+}
+
+.input {
+    padding: 8px 12px;
+    margin-right: 16px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.btn {
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 6px;
+    padding: 5px 10px;
+    width: 110px;
+    margin: auto;
+}
