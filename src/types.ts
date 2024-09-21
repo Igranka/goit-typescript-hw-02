@@ -5,7 +5,8 @@ export interface Image {
   urls: {
     small: string;
     regular: string;
-  };
+    };
+    description: string;
   alt: string;
 }
 
