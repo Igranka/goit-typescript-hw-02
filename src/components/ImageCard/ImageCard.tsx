@@ -1,9 +1,12 @@
+import { FC } from "react";
 import css from "./ImageCard.module.css";
+import { ImageCardProps } from "../../types";
 
-export default function ImageCard({
+
+ const ImageCard: FC<ImageCardProps> = ({
   openModal,
-  images: { urls, description },
-}) {
+  image: { urls, description } ,
+}) => {
   return (
     <img
       className={css.img}
@@ -13,3 +16,5 @@ export default function ImageCard({
     />
   );
 }
+
+export default ImageCard;
